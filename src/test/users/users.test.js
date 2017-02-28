@@ -2,10 +2,10 @@ process.env.NODE_ENV = 'test';
 
 import chai from 'chai';
 import chaiHttp from 'chai-http';
-import server from '../server/index';
+import server from '../../server/index';
 
 let should = chai.should();
-let User = require('../server/modules/users/schemas/user.schema');
+let User = require('../../server/modules/users/schemas/user.schema.js');
 
 chai.use(chaiHttp);
 
