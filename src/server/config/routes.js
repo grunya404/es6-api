@@ -3,5 +3,5 @@
 import userRoutes from '../modules/users/routes/users.route';
 
 export default (app) => {
-	app.use(userRoutes);
+	app.use('/api', userRoutes);
 };
