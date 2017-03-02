@@ -12,9 +12,6 @@ const app = express();
 const upload = multer();
 const env = environments.env();
 
-
-app.use(express.static(__dirname + '/../public'));
-
 app.use(bodyParser.urlencoded({
 	extended: true
 }));

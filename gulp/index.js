@@ -13,10 +13,6 @@ gulp.task('dev', cb => {
     run('server', 'build', 'watch', cb);
 });
 
-gulp.task('client', shell.task([
-    'NODE_ENV=production webpack --config ./webpack.prod.config.js'
-]));
-
 gulp.task('build', cb => {
-    run('client', ['clean', 'flow', 'babel'], 'restart', cb);
+    run(['clean', 'flow', 'babel'], 'restart', cb);
 });
