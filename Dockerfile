@@ -14,4 +14,8 @@ RUN npm install
 COPY . /usr/src/app
 
 EXPOSE 3000 35729
+
+# Generate production folder
+RUN gulp build
+
 CMD [ "npm", "start" ]

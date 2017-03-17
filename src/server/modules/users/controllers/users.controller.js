@@ -7,14 +7,14 @@ export default {
 		userFactories.getAll()
 			.then((_users) => {
 				res.send(_users);
-			}).catch(() => {
+			}).catch((_err) => {
 
 			});
 	},
 	create: (req, res) => {
 		userFactories.createUser()
 			.then((_users) => {
-				res.send('bien');
+				res.send('ok');
 			}).catch(() => {
 
 		});
