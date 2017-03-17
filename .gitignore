@@ -4,3 +4,4 @@ app
 public/
 log
 cheese.log
+npm-debug.log
