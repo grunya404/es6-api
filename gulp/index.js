@@ -14,5 +14,5 @@ gulp.task('dev', cb => {
 });
 
 gulp.task('build', cb => {
-    run(['clean', 'flow', 'babel'], 'restart', cb);
+    run('clean', ['flow', 'babel'], 'restart', cb);
 });

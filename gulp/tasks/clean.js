@@ -5,6 +5,6 @@ import clean from 'gulp-clean';
 import config from '../config/config';
 
 gulp.task('clean', function () {
-	return gulp.src(config.cleanPath, {read: true})
+	return gulp.src(config.cleanPath, {read: false})
 		.pipe(clean());
 });
