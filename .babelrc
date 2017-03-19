@@ -1,11 +1,9 @@
 {
-    "presets": ["es2015-node5", "stage-0", "react"],
-    "plugins": ["transform-flow-strip-types"],
-    "env": {
-        "development": {
-            "presets": [
-                "react-hmre"
-            ]
-        }
-    }
+    "presets": [
+        "es2015-node5",
+        "stage-0"
+    ],
+    "plugins": [
+        "transform-flow-strip-types"
+    ]
 }
