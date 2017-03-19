@@ -1,4 +1,5 @@
-#ES6 API
+ES6 API
+-------------
 
 Modular API project example with Babel, ExpressJS, Mongoose, Gulp, Mocha, Chai!
 
